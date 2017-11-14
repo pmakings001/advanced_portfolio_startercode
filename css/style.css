@@ -6,7 +6,13 @@
 
 
 /* Section CSS */
-
+.col-sm-6
+{
+    background-color:pink  ;
+    border: medium;
+    border-color: grey;
+    
+}
 
 
 /* About Section CSS */
