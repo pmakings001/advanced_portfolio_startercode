@@ -19,32 +19,76 @@
     
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
     <!-- Nav Bar -->
-    <nav class="navbar navbar-default">
+    <div>
+    <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container-fluid">
             <div class="navbar-header">
-              <a class="navbar-brand" href="#">Colors!</a>
+              <a class="navbar-brand" href="#">My Portfolio</a>
             </div>
             
             <ul class="nav navbar-nav ">
-              <li class="active"><a href="#yellow">Yellow</a></li>
-              <li><a href="#green">Green</a></li>
-              <li><a href="#red">Red</a></li>
-              <li><a href="#blue">Blue</a></li>
-              
-              <!-- 4. Add two more colors of your choice. Remember to also 
-                      add the divs bellow with the corresponding id and 
-                      background-color-->
-              
+              <li class="active"><a href="#aboutme">About me</a></li>
+              <li><a href="#links">Links</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
         </nav>
+    </div>
     
-    <div class="row" margin-left: 10px>
-            <div class="col-sm-6">6</div>
-            <div class="col-sm-6">6</div>
+    <div class="container-fluid">
+          <div class="section_div" id="aboutme">
+          <div class="row">
+            <div class="col-sm-12 aboutme-style">
+                <h1>
+                    About Me
+                </h1>
+            </div>
+            <div class="col-sm-6 img-thumbnail">
+                <img src = images/Nodding.gif style="width:100%">
+                <div class="caption">
+                    Jack in his element
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <br>
+            I like Jack Nicholson gifs</div>
+            </div>
          </div>
+         <div class="section_div" id="links">
+            <div class = "col-sm-12 links-style">
+                
+            <h1>
+                Links
+            </h1> 
+         </div>
+         <div class="col-sm-3">
+             <h2>
+                 Cool links
+             </h2>
+         </div>
+         <div class="col-sm-9">
+             <br>
+             <a href="https://www.giphy.com">Get the best gifs here</a> 
+         </div>
+        </div>
+        <div class="section_div" id = "contact">
+            <div class="row">
+                <div class="col-sm-12 contact-style">
+                    <h1>
+                        Contact Details
+                    </h1>
+                </div>
+                <div class="col-sm-6">
+                    <span class="glyphicon glyphicon-cloud" style="color:rgb(0,161,224)"> </span>
+                </div>
+            </div>
+            
+            
+        </div>
+    
+    
     
     <!-- Header -->
     
